@@ -1,0 +1,37 @@
+.sobre{
+    background-color: var(--preto);
+
+    padding: 20%;
+}
+
+.sobre__descricao-breve{
+    font-size: 24px;
+    font-family: sans-serif;
+
+    text-align: center;
+
+    color: var(--branco);
+
+    padding: 20px 0;
+}
+
+.sobre__imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 250px;
+
+    border-radius: 200px;
+}
+
+.sobre__descricao{
+    font-size: 24px;
+    font-family: sans-serif;
+
+    text-align: center;
+
+    padding: 20px 0;
+
+    color: var(--branco);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/sobre.css">
+
+    <title>Meu-Portifolio</title>
+
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <h1 class="cabecalho__titulo">João Vitor Moraes</h1>
+
+        <span onclick="openNav()"><p class="cabecalho__hamburguer"><img class="cabecalho__Icone-hamburguer" src="imagens/hamburguer.png" alt="Icone de hamburguer"></p></span>
+
+        <div id="mySidenav" class="sidenav">
+            <ul class="cabecalho__lista">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="">Sobre</a></p></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Localisação</a></li>
+            </ul>
+          </div>
+
+    </header>
+
+    <main>
+
+        <section class="sobre">
+
+            <p class="sobre__descricao-breve">Jovem desenvolvedor <br> buscando ingressar <br> no meracado profissional.</p>
+
+            <img class="sobre__imagem" src="imagens/foto-recortada.jpg" alt="Foto do desenvolvedor do site">
+
+            <p class="sobre__descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, perferendis dolor. Quasi doloremque nemo voluptatibus consequatur officiis modi maxime libero aperiam nulla est excepturi, assumenda labore sint aspernatur natus temporibus.</p>
+
+        </section>
+    </main>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.display = "block";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.display = "none";
+        }
+        </script>
+
+</body>
+</html>

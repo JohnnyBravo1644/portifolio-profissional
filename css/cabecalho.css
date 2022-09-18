@@ -1,0 +1,116 @@
+:root{
+    --branco: #FFF;
+    --preto: #000000;
+}
+
+.cabecalho__hamburguer{
+    color: var(--branco);
+
+    text-align: right;
+}
+
+.cabecalho__Icone-hamburguer{
+    width: 50px;
+
+    padding: 0 25px;
+
+    cursor: pointer;
+}
+
+
+.cabecalho{
+    background-color: var(--preto);
+}
+
+.cabecalho__titulo{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--branco);
+
+    padding: 2%;
+}
+
+.cabecalho__lista{
+    text-align: center;
+
+    font-weight: 300;
+}
+
+
+
+.cabecalho__lista-item{
+    display: inline-block;
+    text-align: center;
+
+    color: var(--branco);
+    width: 10%;
+    font-size: 18px;
+}
+
+    /* The side navigation menu */
+    .sidenav {
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(12, 11, 11);
+        overflow-x: hidden;
+        padding-top: 50px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #beb8b8;
+        display: block;
+        }
+
+        .sidenav a:hover {
+        color: #229b52;
+        }
+
+        .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        }
+
+        /* Página com Informação Inutil */
+
+        a{
+            color: black;
+        }
+
+        .voltarInicio{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 12px;
+            margin: auto    ;
+            margin-top: 5%;
+            width: 200px;
+            font-size:4ch;
+            background-color: rgb(177, 177, 177);
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 1s;
+
+        }
+
+        .voltarInicio:hover{
+            width: 270px;
+        }
