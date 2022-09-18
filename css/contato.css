@@ -1,0 +1,61 @@
+.contato{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.contato__titulo{
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contato__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contato__lista-item{
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: top 2.4rem left -1.5rem;
+
+    padding: 6rem 0 2rem 5rem;
+
+    font-weight: 700;
+}
+
+.contato__lista-instagram{
+    background-image: url(../imagens/icone-instagram.png);
+}
+
+.contato__lista-linkedin{
+    background-image: url(../imagens/icone-linkedin.png);
+}
+
+.contato__descricao{
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 8%;
+}
+
+.contato__pessoal{
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contato__pessoal-descricao{
+    padding: 40px 0;
+
+    font-size: 18px;
+    font-weight: 700;
+}

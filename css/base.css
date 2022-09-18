@@ -1,4 +1,10 @@
+:root{
+    --branco: #FFF;
+    --preto: #000000;
+    
+    --poppins: font-family: 'Poppins', sans-serif;
+}
+
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }

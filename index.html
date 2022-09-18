@@ -4,15 +4,18 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/contato.css">
 
     <title>Meu-Portifolio</title>
 
@@ -28,9 +31,10 @@
         <div id="mySidenav" class="sidenav">
             <ul class="cabecalho__lista">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <li><a href="">Sobre</a></p></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Localisação</a></li>
+                <li><a href="#">Sobre</a></p></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Tecnologias Utilizadas</a></li>
+                <li><a href="#">Localisação</a></li>
             </ul>
           </div>
 
@@ -47,6 +51,35 @@
             <p class="sobre__descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, perferendis dolor. Quasi doloremque nemo voluptatibus consequatur officiis modi maxime libero aperiam nulla est excepturi, assumenda labore sint aspernatur natus temporibus.</p>
 
         </section>
+
+        <section class="contato">
+
+            <h1 class="contato__titulo">Contato</h1>
+
+            <ul class="contato__lista">
+                
+                <li class="contato__lista-item contato__lista-instagram"><a href="https://www.instagram.com/invites/contact/?i=yfnxm8kfpxqb&utm_content=2qg18ii">Linkedin</a></li>
+
+                <li class="contato__lista-item contato__lista-linkedin"><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-moraes-da-silva-524911207">Instagram</a></li>
+                
+
+            </ul>
+
+            <p class="contato__descricao">Essas são as redes sociais que mais venho utilizando caso esteja interessado em acompanhar um pouco do meu dia a dia ou  dos meus projetos.</p>
+
+            <article class="contato__pessoal">
+                
+                <p class="contato__pessoal-descricao">outros meios de contato</p>
+
+                <p>
+                    <br><a href="tel:+5548988713783" class="contato__pessoal-telefone">(48) 98871-3783</a></br>
+                    <br>ou</br>
+                    <br><a href="mailto:joaovitorjuv@outlook.com" class="contato__pessoal-email">joaovitorjuv@outlook.com</a></br>
+                </p>
+            </article>
+
+        </section>
+
     </main>
 
     <script>
@@ -57,7 +90,7 @@
         function closeNav() {
           document.getElementById("mySidenav").style.display = "none";
         }
-        </script>
+    </script>
 
 </body>
 </html>

@@ -1,8 +1,3 @@
-:root{
-    --branco: #FFF;
-    --preto: #000000;
-}
-
 .cabecalho__hamburguer{
     color: var(--branco);
 

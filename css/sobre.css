@@ -1,12 +1,13 @@
 .sobre{
     background-color: var(--preto);
 
-    padding: 20%;
+    padding: 10%;
 }
 
 .sobre__descricao-breve{
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: var(--poppins);
+    font-weight: 300;
 
     text-align: center;
 
@@ -27,7 +28,8 @@
 
 .sobre__descricao{
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: var(--poppins);
+    font-weight: 300;
 
     text-align: center;
 
