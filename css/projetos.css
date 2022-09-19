@@ -1,5 +1,5 @@
 .projetos{
-    background-color: var(--preto);
+    background-color: var(--azul-escuro);
 
     padding: 0%;
 
@@ -16,6 +16,10 @@
     font-weight: 700;
 
     color: var(--branco);
+}
+
+.projetos img{
+    width: 5rem;
 }
 
 .projetos__lista{
@@ -52,6 +56,4 @@
     padding: 2% 5%;
 }
 
-.projetos__link{
-    
-}
+.projetos__link{}

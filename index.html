@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+   
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -35,10 +36,10 @@
         <div id="mySidenav" class="sidenav">
             <ul class="cabecalho__lista">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <li><a href="#">Sobre</a></p></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Tecnologias Utilizadas</a></li>
-                <li><a href="#">Localisação</a></li>
+                <li><a href="#sobre">Sobre</a></p></li>
+                <li><a href="#ferramentas">Ferramentas Utilizdas</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
           </div>
 
@@ -46,17 +47,81 @@
 
     <main>
 
-        <section class="sobre conteiner">
+        <div>
+
+
+        <section id="sobre" class="sobre conteiner">
 
             <p class="sobre__descricao-breve">Jovem desenvolvedor buscando ingressar no meracado profissional.</p>
 
             <img class="sobre__imagem" src="imagens/foto-recortada.jpg" alt="Foto do desenvolvedor do site">
 
-            <p class="sobre__descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, perferendis dolor. Quasi doloremque nemo voluptatibus consequatur officiis modi maxime libero aperiam nulla est excepturi, assumenda labore sint aspernatur natus temporibus.</p>
+            <p class="sobre__descricao">Ingressei no curso de Sistemas de Informação no ano de 2020 com o objetivo de aprender mais sobre as diversas áreas da TI. Hoje me encontro tentando adentrar esta área, extremamente importante e exigente em busca do meu desenvolvimento profissional.</p>
 
         </section>
 
-        <section class="projetos conteiner">
+        <section id="ferramentas" class="ferramentas conteiner">
+            
+            <h1 class="ferramentas__titulo">Ferrementas Utilizadas</h1>
+
+            
+
+            <ul class="ferramentas__lista">
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-HTML-5.svg" alt="icone HTML-5">
+
+                    <p class="ferramentas__descricao">conhecimento na linguagem de de desenvolvimento web <abbr title="hyper text markup language">HTML5</abbr>, experiência na criação de páginas e criação de layouts responsivos.
+                    </p>
+
+                </li>
+                
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-CSS-3.svg" alt="icone CSS-3">
+
+                    <p class="ferramentas__descricao">Experiência com a linguagem de desenvolvimento web <abbr title="cascading style sheets">CSS3</abbr>, experiência com estilização de páginas a partir de designs ajustáveis a diversos tamanhos de tela.</p>
+
+                </li>
+                 
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-js.svg" alt="icone JavaScript">
+
+                    <p class="ferramentas__descricao">Conhecimento básico na linguagem de programação JavaScript.</p>
+
+                </li>
+                 
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-java.svg" alt="icone HTML-5">
+
+                    <p class="ferramentas__descricao">Conhecimento básico na linguagem de programação JAVA, se estendendo desde de básico da introdução a programação até Bancos de Dados relacionais realizando um processo de CRUD.</p>
+
+                </li>
+
+                 
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-oracle.svg" alt="icone HTML-5">
+
+                    <p class="ferramentas__descricao">Experiência acadêmica com a linguagem de sql da oracle indo desde a criação e relacionamento das tabelas até as funções de join entre as mesmas.</p>
+
+                </li>
+
+                 
+                <li class="ferramentas__lista-item">
+                    
+                    <img class="ferramentas__lista-imagem" src="imagens/icone-postgresql.svg" alt="icone HTML-5">
+
+                    <p class="ferramentas__descricao">Experiência profissional com a linguagem de sql postgre indo das operações mais simples de select e where até as funções de join, insert e delete nas mesmas.</p>
+
+                </li>
+            </ul>
+
+        </section>
+
+        <section id="projetos" class="projetos conteiner">
             
             <h1 class="projetos__titulo">Projetos desenvolvidos</h1>
 
@@ -67,7 +132,7 @@
 
                     <div>
                         <p class="projetos__descricao">Este foi um curso ministrado por mim e outros acadêmicos do curso de sistemas de informação do <abbr title="Centro Universitário Barriga Verde">UNIBAVE</abbr>. A atividade em questão foi desenvolvida inteiramente por mim.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Atividade-Final-Curso-de-java.git" target="_blank"><img src="imagens/seta-direita.png" alt="seta para direita"></a>
+                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Atividade-Final-Curso-de-java.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -77,7 +142,7 @@
                     
                     <div>
                         <p class="projetos__descricao">Projeto final de Programação orientada a objeto desenvolvido com intuito de avaliar o desempenho e aprendizado dos acadêmicos da 4º fase de sistemas de informação do <abbr title="Centro Universitário Barriga Verde">UNIBAVE</abbr>.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-POO-1.git" target="_blank"><img src="imagens/seta-direita.png" alt="seta para direita"></a>
+                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-POO-1.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -87,7 +152,7 @@
 
                     <div>
                         <p class="projetos__descricao">Neste Projeto tivemos que realizar um API REST utilizando Spring Boot onde tivemos que realizar um CRUD no MySQL.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img src="imagens/seta-direita.png" alt="seta para direita"></a>
+                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -97,7 +162,7 @@
 
                     <div>
                         <p class="projetos__descricao">Este foi um site desenvolvido ao longo do curso de Layouts Responsivos do Professor Matheus Alberto, o site da Apeperia foi desenvolvido de maneira a adaptar o seu conteúdo a diversos tamanhos de tela utilizando HTML5 e CSS3.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-apeperia.git" target="_blank"><img src="imagens/seta-direita.png" alt="seta para direita"></a>
+                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-apeperia.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -107,7 +172,7 @@
 
                     <div>
                         <p class="projetos__descricao">Este foi um site desenvolvido ao longo do curso de HTML5 e CSS3 do professor Pedro Marins, nele aprendemos sobre fundamentos necessários para a criação de uma página web.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img src="imagens/seta-direita.png" alt="seta para direita"></a>
+                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -116,66 +181,9 @@
 
         </section>
 
-        <section class="ferramentas conteiner">
-            
-            <h1 class="ferramentas__titulo">Ferrementas Utilizadas</h1>
-
-            <ul class="ferramentas__lista">
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-html-5.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-                
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-css-3.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-                 
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-js.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-                 
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-java.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-
-                 
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-oracle.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-
-                 
-                <li class="ferramentas__lista-item">
-                    
-                    <img class="ferramentas__lista-imagem" src="imagens/icone-postgre.png" alt="icone HTML-5">
-
-                    <p class="ferramentas__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis eveniet aliquam fuga explicabo temporibus perferendis consequatur .</p>
-
-                </li>
-            </ul>
-
-        </section>
     </main>
 
-    <footer class="contato conteiner">
+    <footer id="contato" class="contato conteiner">
 
         <h1 class="contato__titulo">Contato</h1>
 
@@ -204,15 +212,7 @@
 
     </footer>
 
-    <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.display = "block";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.display = "none";
-        }
-    </script>
+    <script src="js/nav-bar.js"></script>
 
 </body>
 </html>

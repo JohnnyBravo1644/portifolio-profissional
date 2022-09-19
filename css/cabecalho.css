@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: var(--preto);
+    background-color: var(--azul-escuro);
 
     display: flex;
 
@@ -77,7 +77,7 @@
         }
 
         .sidenav a:hover {
-        color: #229b52;
+        color: var(--azul-destaque);
         }
 
         .sidenav .closebtn {
