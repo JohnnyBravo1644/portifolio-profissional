@@ -10,3 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.conteiner{
+    padding-left: 8%;
+    padding-right: 8%;
+}

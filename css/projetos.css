@@ -1,0 +1,57 @@
+.projetos{
+    background-color: var(--preto);
+
+    padding: 0%;
+
+    color: var(--branco);
+}
+
+.projetos__titulo{
+    text-align: center;
+    
+    padding: 10% 0;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: var(--branco);
+}
+
+.projetos__lista{
+    display: block;
+    
+}
+
+.projetos__lista-item{
+    font-size: 18px;
+
+    background-position: 0%;
+}
+
+.projetos__lista-item div{
+    display: flex;
+
+    padding: 5% 4%;
+    
+}
+
+.projetos__nome{
+    text-align: center;
+
+    padding: 10% 0% 1% 0%;
+}
+
+.projetos__descricao{
+
+    color: var(--cinza-descricao);
+    font-style: italic;
+
+    text-align: center;
+
+    padding: 2% 5%;
+}
+
+.projetos__link{
+    
+}

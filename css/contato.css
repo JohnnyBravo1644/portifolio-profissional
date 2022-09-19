@@ -3,10 +3,13 @@
     padding-bottom: 3.5rem;
 
     background-color: var(--branco);
+
 }
 
 .contato__titulo{
     text-align: center;
+
+    font-family: 'Roboto Condensed', sans-serif;
 
     font-size: 24px;
     font-weight: 700;
