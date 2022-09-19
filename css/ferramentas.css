@@ -44,3 +44,30 @@
 
     font-style: italic;
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .ferramentas__titulo{
+        padding: 4% 0%;
+    }
+
+    .ferramentas__lista{
+        display: flex;
+        flex-flow: row wrap;
+
+        justify-content: center;
+    }
+
+    .ferramentas__lista-item{
+        
+        width: 30%;
+
+        padding: 1% 10%;
+        
+    }
+
+    .ferramentas__lista-imagem{
+        width: 86px;
+    }
+    
+}
