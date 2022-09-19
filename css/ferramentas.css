@@ -1,0 +1,41 @@
+.ferramentas{
+    background-color: var(--preto);
+    
+    color: var(--cinza-descricao);
+}
+
+.ferramentas__titulo{
+    text-align: center;
+    
+    padding: 10% 0;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    color: var(--branco);
+}
+
+.ferramentas__lista{
+    padding: 0px 40px;
+    
+    display: block;
+
+    font-weight: 300;
+}
+
+.ferramentas__lista-imagem{}
+
+.ferramentas__lista-item{
+    display: flex;
+
+    text-align: center;
+
+    padding: 13% 0;
+    
+}
+
+.ferramentas__descricao{
+    padding: 5% 1%;
+
+    font-style: italic;
+}

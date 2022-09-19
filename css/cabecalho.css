@@ -1,3 +1,12 @@
+.cabecalho{
+    background-color: var(--preto);
+
+    display: flex;
+
+
+    justify-content: space-between;
+}
+
 .cabecalho__hamburguer{
     color: var(--branco);
 
@@ -10,11 +19,6 @@
     padding: 0 25px;
 
     cursor: pointer;
-}
-
-
-.cabecalho{
-    background-color: var(--preto);
 }
 
 .cabecalho__titulo{

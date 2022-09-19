@@ -1,6 +1,7 @@
 :root{
-    --branco: #FFF;
+    --branco: rgb(207, 207, 207);
     --preto: #000000;
+    --cinza-descricao: #6d6d6d;
     
     --poppins: font-family: 'Poppins', sans-serif;
 }
@@ -8,3 +9,4 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
