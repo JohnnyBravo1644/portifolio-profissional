@@ -55,3 +55,32 @@
 }
 
 .projetos__link{}
+
+
+@media screen and (min-width: 1024px){
+    .projetos{
+        padding: 2% 0%;
+    }
+
+    .projetos__titulo{
+        text-align: center;
+        
+        padding: 5% 0;
+    
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    
+        color: var(--branco);
+    }
+
+    .projetos__lista-item div{
+        display: flex;
+    
+        padding: 2% 10%;
+    }
+
+    .projetos__nome{
+        padding: 5% 0% 0% 0%;
+    }
+}
