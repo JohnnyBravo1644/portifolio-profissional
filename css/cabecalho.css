@@ -3,7 +3,6 @@
 
     display: flex;
 
-
     justify-content: space-between;
 
     padding: 3%;
@@ -16,7 +15,7 @@
 }
 
 .cabecalho__Icone-hamburguer{
-    width: 50px;
+    width: 35px;
 
     padding: 0 25px;
 
