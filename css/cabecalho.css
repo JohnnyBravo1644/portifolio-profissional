@@ -52,7 +52,7 @@
 }
 
     /* The side navigation menu */
-    .sidenav {
+        .sidenav {
         display: none;
         height: 100%;
         width: 100%;
@@ -118,4 +118,16 @@
 
         .voltarInicio:hover{
             width: 270px;
+        }
+
+    @media screen and (min-width: 610px){
+        .sidenav {
+            width: 45%;
+            }
+        }
+
+    @media screen and (min-width: 1024px){
+        .sidenav {
+            width: 25%;
+            }
         }

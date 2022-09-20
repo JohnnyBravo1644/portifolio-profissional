@@ -63,15 +63,8 @@
     }
 
     .projetos__titulo{
-        text-align: center;
         
-        padding: 5% 0;
-    
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-    
-        color: var(--branco);
+        padding: 5% 0% 2% 0%;
     }
 
     .projetos__lista-item div{

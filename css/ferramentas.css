@@ -56,19 +56,27 @@
         flex-flow: row wrap;
 
         justify-content: center;
+        align-items: center;
+
+        padding: 0px 10px;
     }
 
     .ferramentas__lista-item{
         
-        width: 30%;
+        width: 35%;
 
-        padding: 1% 10%;
+        padding: 2% 7%;
         
     }
 
     .ferramentas__lista-imagem{
         width: 86px;
     } 
+
+    .ferramentas__descricao{
+        padding: 5% 3%;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     
@@ -81,20 +89,24 @@
         flex-flow: row wrap;
 
         justify-content: center;
+        align-items: center;
+        
     }
 
     .ferramentas__lista-item{
         
         width: 30%;
 
-        padding: 1% 10%;
+        padding: 3% 10%;
         
     }
 
     .ferramentas__lista-imagem{
         width: 86px;
-    }      
+    } 
     
-}
-
+    .ferramentas__descricao{
+        padding: 5% 3%;
+    }
+    
 }
