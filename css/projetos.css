@@ -4,6 +4,7 @@
     padding: 0%;
 
     color: var(--branco);
+    
 }
 
 .projetos__titulo{
@@ -18,10 +19,6 @@
     color: var(--branco);
 }
 
-.projetos img{
-    width: 5rem;
-}
-
 .projetos__lista{
     display: block;
     
@@ -30,14 +27,6 @@
 .projetos__lista-item{
     font-size: 18px;
 
-    background-position: 0%;
-}
-
-.projetos__lista-item div{
-    display: flex;
-
-    padding: 5% 4%;
-    
 }
 
 .projetos__nome{
@@ -46,15 +35,31 @@
     padding: 10% 0% 1% 0%;
 }
 
+.projeto__caixa{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1000px;
+
+    padding: 5% 4%;
+}
+
 .projetos__descricao{
     color: var(--cinza-descricao);
 
-    text-align: center;
+    text-align: left;
 
     padding: 2% 5%;
 }
 
 .projetos__link{}
+
+.projetos__seta{
+    float: left;
+    width: 5rem;
+}
 
 
 @media screen and (min-width: 1024px){

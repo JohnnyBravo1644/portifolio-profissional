@@ -8,16 +8,15 @@
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
    
 
-    <link rel="shortcut icon" href="imagens/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logo-header.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/ferramentas.css">
@@ -41,10 +40,10 @@
         <div id="mySidenav" class="sidenav">
             <ul class="cabecalho__lista">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <li><a href="#sobre" onclick="closeNav()">Sobre</a></p></li>
-                <li><a href="#ferramentas" onclick="closeNav()">Ferramentas Utilizadas</a></li>
-                <li><a href="#projetos" onclick="closeNav()">Projetos</a></li>
-                <li><a href="#contato" onclick="closeNav()">Contato</a></li>
+                <li><a title="Sobre" href="#sobre" onclick="closeNav()">Sobre</a></p></li>
+                <li><a title="Ferramentas" href="#ferramentas" onclick="closeNav()">Ferramentas Utilizadas</a></li>
+                <li><a title="Projetos" href="#projetos" onclick="closeNav()">Projetos</a></li>
+                <li><a title="Contato" href="#contato" onclick="closeNav()">Contato</a></li>
             </ul>
         </div>
 
@@ -52,21 +51,16 @@
 
     <main>
 
-        <div>
-
-
         <section id="sobre" class="sobre conteiner">
 
-            <div class="breve__descricao-divisao">
-                <p class="sobre__descricao-breve">Jovem desenvolvedor buscando ingressar no meracado profissional.</p>
+            <div class="sobre__caixa">
+                <h2 class="sobre__titulo">Olá me chamo João</h2>
+
+                <p class="sobre__descricao">Sou um jovem desenvolvedor buscando ingressar no meracado profissional. Ingressei no curso de Sistemas de Informação no ano de 2020 com o objetivo de aprender mais sobre as diversas áreas da TI. Hoje me encontro tentando entrar nesta área em busca do meu desenvolvimento profissional.</p>
+
+                <img class="sobre__imagem" src="imagens/foto-recortada.jpg" alt="Foto do desenvolvedor do site">
             </div>
-
-            <img class="sobre__imagem" src="imagens/foto-recortada.jpg" alt="Foto do desenvolvedor do site">
-
-            <div class="descricao__divisão">
-                <p class="sobre__descricao">Ingressei no curso de Sistemas de Informação no ano de 2020 com o objetivo de aprender mais sobre as diversas áreas da TI. Hoje me encontro tentando adentrar esta área, extremamente importante e exigente em busca do meu desenvolvimento profissional.</p>
-            </div>
-
+    
         </section>
 
         <section id="ferramentas" class="ferramentas conteiner">
@@ -147,9 +141,9 @@
                 <li class="projetos__lista-item">
                     <h3 class="projetos__nome">Atividade final curso java</h3>
 
-                    <div>
+                    <div class="projeto__caixa">
                         <p class="projetos__descricao">Este foi um curso ministrado por mim e outros acadêmicos do curso de sistemas de informação do <abbr title="Centro Universitário Barriga Verde">UNIBAVE</abbr>. A atividade em questão foi desenvolvida inteiramente por mim.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Atividade-Final-Curso-de-java.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
+                        <a title="Ir para a página do GitHub" class="projetos__link" href="https://github.com/JohnnyBravo1644/Atividade-Final-Curso-de-java.git" target="_blank"><img class="projetos__seta" src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -157,9 +151,9 @@
                 <li class="projetos__lista-item">
                     <h3 class="projetos__nome">Projeto Final POO-1 JAVA</h3>
                     
-                    <div>
+                    <div class="projeto__caixa">
                         <p class="projetos__descricao">Projeto final de Programação orientada a objeto desenvolvido com intuito de avaliar o desempenho e aprendizado dos acadêmicos da 4º fase de sistemas de informação do <abbr title="Centro Universitário Barriga Verde">UNIBAVE</abbr>.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-POO-1.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
+                        <a title="Ir para a página do GitHub" class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-POO-1.git" target="_blank"><img class="projetos__seta" src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -167,9 +161,9 @@
                 <li class="projetos__lista-item">
                     <h3 class="projetos__nome">Projeto Final POO-2 JAVA</h3>
 
-                    <div>
-                        <p class="projetos__descricao">Neste Projeto tivemos que realizar um API REST utilizando Spring Boot onde tivemos que realizar um CRUD no MySQL.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
+                    <div class="projeto__caixa">
+                        <p class="projetos__descricao">Neste Projeto tivemos que realizar um API REST utilizando Spring Boot onde tivemos que realizar um CRUD utilizando o baanco de dados MySQL.</p>
+                        <a title="Ir para a página do GitHub" class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-Final-POO-2.git" target="_blank"><img class="projetos__seta" src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -177,9 +171,9 @@
                 <li class="projetos__lista-item">
                     <h3 class="projetos__nome">Projeto Apeperia</h3>
 
-                    <div>
+                    <div class="projeto__caixa">
                         <p class="projetos__descricao">Este foi um site desenvolvido ao longo do curso de Layouts Responsivos do Professor Matheus Alberto, o site da Apeperia foi desenvolvido de maneira a adaptar o seu conteúdo a diversos tamanhos de tela utilizando <abbr title="hyper text markup language">HTML5</abbr> e <abbr title="cascading style sheets">CSS3</abbr>.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-apeperia.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
+                        <a title="Ir para a página do GitHub" class="projetos__link" href="https://github.com/JohnnyBravo1644/Projeto-apeperia.git" target="_blank"><img class="projetos__seta" src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -187,9 +181,9 @@
                 <li class="projetos__lista-item">
                     <h3 class="projetos__nome">Projeto Barbearia Alura</h3>
 
-                    <div>
+                    <div class="projeto__caixa">
                         <p class="projetos__descricao">Este foi um site desenvolvido ao longo do curso de <abbr title="hyper text markup language">HTML5</abbr> e <abbr title="cascading style sheets">CSS3</abbr> do professor Pedro Marins, nele aprendemos sobre fundamentos necessários para a criação de uma página web.</p>
-                        <a class="projetos__link" href="https://github.com/JohnnyBravo1644/Barbearia-Alura.git" target="_blank"><img src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
+                        <a title="Ir para a página do GitHub" class="projetos__link" href="https://github.com/JohnnyBravo1644/Barbearia-Alura.git" target="_blank"><img class="projetos__seta" src="imagens/icone-seta-direita.svg" alt="seta para direita"></a>
                     </div>
 
                 </li>
@@ -207,8 +201,8 @@
         <div class="contato__redes-sociais">
             <ul class="contato__lista">
             
-                <li class="contato__lista-item contato__lista-instagram"><a href="https://www.instagram.com/joaomoraes164/" target="_blank">Instagram</a></li>
-                <li class="contato__lista-item contato__lista-linkedin"><a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-moraes-da-silva-524911207" target="_blank">Linkedin</a></li>
+                <li class="contato__lista-item contato__lista-instagram"><a title="Ir para o perfil do Instagram" href="https://www.instagram.com/joaomoraes164/" target="_blank">Instagram</a></li>
+                <li class="contato__lista-item contato__lista-linkedin"><a title="Ir para o perfil do Linkedin" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-moraes-da-silva-524911207" target="_blank">Linkedin</a></li>
             
             </ul>
             <p class="contato__descricao">Estas são as redes sociais que mais venho utilizando caso esteja interessado em acompanhar um pouco do meu dia a dia ou  dos meus projetos.</p>
@@ -219,9 +213,9 @@
             <h2 class="contato__pessoal-descricao">outros meios de contato</h2>
 
             <p>
-                <br><a href="tel:+5548988713783" class="contato__pessoal-telefone">(48) 98871-3783</a></br>
+                <br><a title="telefone" href="tel:+5548988713783" class="contato__pessoal-telefone">(48) 98871-3783</a></br>
                 <br>ou</br>
-                <br><a href="mailto:joaovitorjuv@outlook.com" class="contato__pessoal-email">joaovitorjuv@outlook.com</a></br>
+                <br><a title="e-mail" href="mailto:joaovitorjuv@outlook.com" class="contato__pessoal-email">joaovitorjuv@outlook.com</a></br>
             </p>
 
         </article>

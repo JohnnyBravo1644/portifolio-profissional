@@ -14,7 +14,11 @@
 
     justify-content: space-between;
 
-    width: 270px;
+    width: 300px;
+
+    max-width: 300px;
+
+    padding: 0px 0px 0px 5px;
 }
 
 .cabecalho__hamburguer{
@@ -58,117 +62,3 @@
     width: 10%;
     font-size: 18px;
 }
-
-    /* The side navigation menu */
-        .sidenav {
-        display: none;
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgb(12, 11, 11);
-        overflow-x: hidden;
-        padding-top: 50px;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .sidenav a {
-        text-align: center;
-        padding: 4% 0%;
-        text-decoration: none;
-        font-size: 25px;
-        color: #beb8b8;
-        display: block;
-        }
-
-        .sidenav a:hover {
-        color: var(--azul-destaque);
-        }
-
-        .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-        }
-
-        @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-        }
-
-        /* Página com Informação Inutil */
-
-        a{
-            color: black;
-        }
-
-        .voltarInicio{
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 2px solid black;
-            border-radius: 12px;
-            margin: auto    ;
-            margin-top: 5%;
-            width: 200px;
-            font-size:4ch;
-            background-color: rgb(177, 177, 177);
-            font-family: Arial, Helvetica, sans-serif;
-            transition: 1s;
-
-        }
-
-        .voltarInicio:hover{
-            width: 270px;
-        }
-
-    @media screen and (min-width: 610px){
-        .sidenav {
-            width: 45%;
-            }
-
-            .cabecalho__caixa{
-                display: inline-flex;
-                flex-flow: row wrap;
-            
-                justify-content: space-between;
-            
-                width: 290px;
-            }
-
-            .cabecalho__titulo{
-                font-size: 28px;
-                font-family: 'Roboto Condensed', sans-serif;
-                font-weight: 700;
-            
-                color: var(--branco);
-            
-                padding: 6% 0% 6% 1%;
-            
-            }
-        }
-
-    @media screen and (min-width: 1024px){
-        .sidenav {
-            width: 25%;
-            }
-
-            
-
-            .cabecalho__titulo{
-                font-size: 28px;
-                font-family: 'Roboto Condensed', sans-serif;
-                font-weight: 700;
-            
-                color: var(--branco);
-            
-                padding: 4% 0% 4% 1%;
-            
-            }
-        }
