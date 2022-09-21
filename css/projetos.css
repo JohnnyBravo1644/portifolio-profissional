@@ -37,7 +37,7 @@
 
 .projeto__caixa{
 
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 
@@ -56,9 +56,9 @@
 
 .projetos__link{}
 
-.projetos__seta{
+.projetos__icone{
     float: left;
-    width: 5rem;
+    width: 4rem;
 }
 
 

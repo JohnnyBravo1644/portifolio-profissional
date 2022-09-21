@@ -8,10 +8,34 @@
 
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
-  
+}
+
+p {
+    line-height: 1.4;
 }
 
 .conteiner{
     padding-left: 8%;
     padding-right: 8%;
+}
+
+img{
+    width: 60px;
+}
+
+.bnt__fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+
+.bnt__fixed.visible{
+    visibility: visible;
+
+    background-color: #CFCFCF;
+
+    border: 3px solid #CFCFCF;
+
+    border-radius: 50px;
 }
