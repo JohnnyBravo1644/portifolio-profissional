@@ -10,12 +10,8 @@
 
 }
 
-/*Animação Texto Digitando*/
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-  *{
-    margin: 0;
-  }
+/*Animação Texto sendo Digitando*/
+
   .sobre__titulo-animacao{
     
     color: white;
@@ -23,19 +19,21 @@
     display:flex;
     align-items:center;
     justify-content: center;
-    
-  }
-  .typewriter {
-    font-family: 'Anonymous Pro', monospace;
-    width: 70%;  
-  }
-  .sobre__titulo {
-    overflow: hidden;
-    margin: 0 auto;
-    display: inline-block;
-        font-weight: normal;
 
   }
+
+  .sobre__titulo{
+    text-align: center;
+    
+    padding: 4% 0;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    color: var(--branco);
+}
+
   .sobre__titulo:after{
    content: '';
     display: inline-block;
@@ -53,7 +51,7 @@
       50% { opacity: 0; }
       100% { opacity: 0; }
   }
-/**/
+/*-----------------------*/
 
 .sobre__caixa{
 
@@ -64,18 +62,6 @@
     background-color: var(--azul-destaque);
     
     border-radius: 8px 8px 8px 8px;
-}
-
-.sobre__titulo{
-    text-align: center;
-    
-    padding: 4% 0;
-
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-
-    color: var(--branco);
 }
 
 .sobre__imagem{

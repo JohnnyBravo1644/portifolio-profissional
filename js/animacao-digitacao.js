@@ -16,17 +16,3 @@ var i = 0;
     }
 
 typeWriter();
-
-
-// function deltxt() {
-//      if (A <= txt.length) {
-    //      document.getElementById("text").innerHTML = txt.slice(0, -A);
-    //      A++;
-    //      setTimeout(deltxt, 50);
-    //    }
-    // }
-    // var backward = speed * txt.length + 1000   ;
-    // // console.log(backward);
-    // setTimeout( function () {
-    //  deltxt();
-    // },backward);
