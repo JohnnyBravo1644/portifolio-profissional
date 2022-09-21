@@ -1,0 +1,39 @@
+.botoes{
+    width: 60px;
+}
+
+.botao__topo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+
+.botao__topo.visible{
+    visibility: visible;
+
+    background-color: var(--cinza-git);
+
+    border: 3px solid var(--cinza-git);
+
+    border-radius: 50px;
+
+    transition: 1s;
+}
+
+.botao__topo.visible:hover{
+
+    background-color: var(--azul-nav-destaque);
+
+    border: 3px solid var(--azul-nav-destaque);
+
+    
+}
+
+@media screen and (max-width: 1024px){
+
+    .botao__topo.visible{
+        opacity: 70%;
+    }
+    
+}

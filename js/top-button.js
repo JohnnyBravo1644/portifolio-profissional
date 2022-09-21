@@ -1,4 +1,4 @@
-const botao = document.querySelector(".bnt__fixed");
+const botao = document.querySelector(".botao__topo");
 
 window.addEventListener("scroll", function (event){
 
@@ -13,3 +13,4 @@ window.addEventListener("scroll", function (event){
     }
 
 });
+

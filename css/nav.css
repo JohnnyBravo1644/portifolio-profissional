@@ -7,7 +7,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(12, 11, 11);
+    background-color: var(--azul-destaque);
     overflow-x: hidden;
     padding-top: 50px;
     border-radius: 10px;
@@ -24,7 +24,7 @@
     }
 
     .sidenav a:hover {
-    color: var(--azul-destaque);
+    color: var(--azul-nav-destaque);
     }
 
     .sidenav .closebtn {
@@ -73,6 +73,13 @@
 
     .sidenav {
         width: 25%;
+        left: unset;
+        right: 0;
+    }
+
+    .sidenav .closebtn {
+        right: unset;
+        left: 15px;
     }
     
 }
