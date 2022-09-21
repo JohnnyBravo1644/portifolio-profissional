@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/ferramentas.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/botao-topo.css">
 
-    <title>Portifolio-Profissional</title>
+    <title>João Vitor Moraes</title>
 
 </head>
 <body>
@@ -32,7 +33,8 @@
         <div class="cabecalho__caixa">
             <img src="imagens/logo-header.svg" alt="Logo do Site">
 
-            <h1 class="cabecalho__titulo">João Vitor Moraes</h1>
+                <h1 class="cabecalho__titulo">João Vitor Moraes</h1>     
+            
         </div>
 
         <span onclick="openNav()"><p class="cabecalho__hamburguer"><img class="cabecalho__Icone-hamburguer" src="imagens/icone-hamburguer.SVG" alt="Icone de hamburguer"></p></span>
@@ -54,7 +56,10 @@
         <section id="sobre" class="sobre conteiner">
 
             <div class="sobre__caixa">
-                <h2 class="sobre__titulo">Olá me chamo João</h2>
+
+                <div class="sobre__titulo-animacao">
+                    <h2 id="texto" class="sobre__titulo">Olá me chamo João.</h2>
+                </div>
 
                 <p class="sobre__descricao">Sou um jovem desenvolvedor buscando ingressar no mercado profissional. Ingressei no curso de Sistemas de Informação no ano de 2020 com o objetivo de aprender mais sobre as diversas áreas da TI. Hoje me encontro tentando entrar nesta área em busca do meu desenvolvimento profissional.</p>
 
@@ -203,7 +208,7 @@
         <a class="bnt__fixed" href="#cabecalho">
 
             <span class="material__icon">
-                <img src="imagens/icone-seta-cima.svg" alt="saas">
+                <img class="botao__topo" src="imagens/icone-seta-cima.svg" alt="saas">
             </span>
 
         </a>
@@ -212,7 +217,7 @@
 
     <footer id="contato" class="contato conteiner">
 
-        <h1 class="contato__titulo">Contato</h1>
+        <h2 class="contato__titulo">Contato</h2>
 
         <div class="contato__redes-sociais">
             <ul class="contato__lista">
@@ -224,7 +229,7 @@
             <p class="contato__descricao">Estas são as redes sociais que mais venho utilizando caso esteja interessado em acompanhar um pouco do meu dia a dia ou  dos meus projetos.</p>
         </div>
 
-        <article class="contato__pessoal">
+        <section class="contato__pessoal">
             
             <h2 class="contato__pessoal-descricao">outros meios de contato</h2>
 
@@ -234,12 +239,13 @@
                 <br><a title="e-mail" href="mailto:joaovitorjuv@outlook.com" class="contato__pessoal-email">joaovitorjuv@outlook.com</a></br>
             </p>
 
-        </article>
+        </section>
 
     </footer>
 
     <script src="js/nav-bar.js"></script>
     <script src="js/top-button.js"></script>
+    <script src="js/animacao-digitacao.js"></script>
 
 </body>
 </html>

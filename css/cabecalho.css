@@ -62,3 +62,11 @@
     width: 10%;
     font-size: 18px;
 }
+
+@media screen and (max-width: 400px){
+    .cabecalho__titulo{
+        font-size: 22px;
+    
+        padding: 7% 0% 7% 1%;
+    }
+}
