@@ -93,6 +93,11 @@
         justify-content: center;
         align-items: center;
         
+        max-width: 1391px;
+
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     .ferramentas__lista-item{
@@ -105,6 +110,9 @@
 
     .ferramentas__lista-imagem{
         width: 86px;
+
+        margin-top: auto;
+        margin-bottom: auto;
     } 
     
     .ferramentas__descricao{
