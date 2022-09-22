@@ -28,6 +28,8 @@
 }
 
 .formacao__caixa{   
+    text-align: center;
+
     background-color: var(--azul-destaque);
     color: var(--branco);
 
@@ -75,6 +77,23 @@
 
     border-radius: 8px;
     
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .formacao__caixa{ 
+
+        padding: 20px;
+    
+        margin: 15px 15px;
+
+        font-size: 14px;
+    }
+
+    .formacao{
+        padding: 4%;
+    }
+
   }
 
  
