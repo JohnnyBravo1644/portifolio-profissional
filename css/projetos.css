@@ -38,6 +38,7 @@
 .projeto__caixa{
 
     display: flex;
+    
     margin-left: auto;
     margin-right: auto;
 
@@ -53,8 +54,12 @@
 
     padding: 2% 5%;
 }
+.projetos__link{
+    justify-content: center;
 
-.projetos__link{}
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .projetos__icone{
     float: left;
