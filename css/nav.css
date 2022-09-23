@@ -41,9 +41,10 @@
     }
 
 @media screen and (min-width: 610px){
-
     .sidenav {
         width: 45%;
+        left: unset;
+        right: 0;
     }
 
 }

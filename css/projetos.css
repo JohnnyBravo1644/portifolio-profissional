@@ -4,7 +4,6 @@
     padding: 0%;
 
     color: var(--branco);
-    
 }
 
 .projetos__titulo{
@@ -21,12 +20,10 @@
 
 .projetos__lista{
     display: block;
-    
 }
 
 .projetos__lista-item{
     font-size: 18px;
-
 }
 
 .projetos__nome{
@@ -36,7 +33,6 @@
 }
 
 .projeto__caixa{
-
     display: flex;
     
     margin-left: auto;
