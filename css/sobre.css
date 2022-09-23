@@ -32,10 +32,10 @@
     font-weight: 700;
 
     color: var(--branco);
-}
+  }
 
   .sobre__titulo:after{
-   content: '';
+    content: '';
     display: inline-block;
     background-color: white;
     margin-left: 2px;
@@ -76,7 +76,6 @@
 
 .sobre__descricao{
     font-size: 18px;
-    font-family: var(--poppins);
     font-weight: 300;
 
     text-align: left;
